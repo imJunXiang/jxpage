@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <button type="submit" onclick="btnAction()">点击跳转</button>
-    <script>
-        function btnAction() {
-            window.location.href="openApp.jdHealth://virtual?params=%7B%22category%22:%22jump%22,%22des%22:%22familyDoctorList%22,%22beneficialId%22:%22beneficialId%22,%22rightId%22:%22rightId%22%7D"
-        }
-    </script>
-</body>
+<html>
+	<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       	<title>Insert title here</title>
+    </head>
+	<body>
+		<h1>
+			<a href="openApp.jdHealth://virtual?params={"category":"jump","des":"familyDoctorList","beneficialId":"beneficialId","rightId":"rightId"}">家庭医生列表</a>
+		</h1>
+		<br />
+		<h1>
+			<a href="openApp.jdHealth://virtual?params={"category":"jump","des":"familyDoctorDetail","beneficialId":"beneficialId","rightId":"rightId","docId":"docId"}">家庭医生详情</a>
+		</h1>
+		<br />
+		<h1>
+			<a href="openApp.jdHealth://virtual?params={"category":"jump","des":"tabPage","type":"0"}">首页</a>
+		</h1>
+		<br />
+		<h1>
+			<a href="openapp.jdhealth://virtual?params={"category": "jump","des": "dynamicFloor","pageId": "e9333dbf20b04c71a3dfaab9a433bfd0","pageName": "pageName","dataIds": {"rightId": "1490800586008832002","rightPackageId": "426112686452227","beneficialId": "426112686460422","memberType":121}}">服务页</a>
+		</h1>
+		<br />
+		<h1>
+			<a href="openapp.jdhealth://virtual?params=1">打开App</a>
+		</h1>
+	</body>
 </html>
+
